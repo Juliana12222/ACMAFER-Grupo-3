@@ -12,7 +12,8 @@ namespace AppAcmafer.Modelo
         public string Email { get; set; }
         public string Rol { get; set; }
         public string EstadoCuenta { get; set; }
-        public string Contraseña { get; set; } 
+        public string Contraseña { get; set; }
+
         public ClUsuarioM() { }
     }
 }
