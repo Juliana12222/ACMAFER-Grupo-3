@@ -13,7 +13,7 @@ namespace AppAcmafer.Datos
 
         public ClConexion()
         {
-            oConex = new SqlConnection("Data Source=.;Initial Catalog=pruebaProyecto;Integrated Security=True;");
+            oConex = new SqlConnection("Data Source=.;Initial Catalog=ProyectoACMAFER;Integrated Security=True;");
         }
 
         public SqlConnection MtAbrirConexion()

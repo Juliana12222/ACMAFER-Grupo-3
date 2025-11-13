@@ -1,6 +1,7 @@
 ﻿using AppAcmafer.Modelo;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -8,19 +9,50 @@ namespace AppAcmafer.Datos
 {
     public class ClUsuarioD
     {
-        private ClConexion _conexion = new ClConexion();
+         ClConexion oConexion = new ClConexion();
 
-        public List<ClUsuarioM> UsuariosRegistrados()
+        public List<ClUsuarioM> ListarUsuarios()
         {
-            Console.WriteLine("DAL: Llamando a ClConexion y simulando resultados de la DB...");
-            return new List<ClUsuarioM>
+            List<ClUsuarioM> listaUsuarios = new List<ClUsuarioM>();
+
+            string query = "SELECT u.idUsuario, u.documento, u.nombre, u.apellido, u.email, r.rol, u.estado " +
+                           "FROM [dbo].[usuario] u INNER JOIN [dbo].[rol] r ON u.idRol = r.idRol " +
+                           "ORDER BY u.idUsuario ASC";
+
+            SqlCommand command = null;
+            SqlDataReader reader = null;
+
+            try
             {
-                new ClUsuarioM { Id = 1, Nombre = "Ana García", Email = "ana.g@dominio.com", Rol = "Administrador", EstadoCuenta = "Activo", Password= "hash1"},
-                new ClUsuarioM { Id = 2, Nombre = "Beto Pérez", Email = "beto.p@dominio.com", Rol = "Cliente", EstadoCuenta = "Activo", Password = "hash2"},
-                new ClUsuarioM { Id = 3, Nombre = "Carlos Díaz", Email = "carlos.d@dominio.com", Rol = "Editor", EstadoCuenta = "Inactivo", Password = "hash3"}
-            };
+                SqlConnection oConex = oConexion.MtAbrirConexion();
+                command = new SqlCommand(query, oConex);
+                reader = command.ExecuteReader();
 
+                while (reader.Read())
+                {
+                    listaUsuarios.Add(new ClUsuarioM()
+                    {
+                        IdUsuario = Convert.ToInt32(reader["idUsuario"]),
+                        Documento = reader["documento"].ToString(),
+                        Nombre = reader["nombre"].ToString(),
+                        Apellido = reader["apellido"].ToString(),
+                        Email = reader["email"].ToString(),
+                        Rol = reader["rol"].ToString(),
+                        Estado = reader["estado"].ToString()
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error en Capa de Datos: " + ex.Message);
+                listaUsuarios = new List<ClUsuarioM>();
+            }
+            finally
+            {
+                if (reader != null && !reader.IsClosed) reader.Close();
+                oConexion.MtCerrarConexion();
+            }
+            return listaUsuarios;
         }
-
     }
 }
