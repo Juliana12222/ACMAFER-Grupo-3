@@ -9,15 +9,15 @@ namespace AppAcmafer.Datos
 {
     public class ClUsuarioD
     {
-         ClConexion oConexion = new ClConexion();
-
+        ClConexion oConexion = new ClConexion();
+        
         public List<ClUsuarioM> ListarUsuarios()
         {
             List<ClUsuarioM> listaUsuarios = new List<ClUsuarioM>();
 
-            string query = "SELECT u.idUsuario, u.documento, u.nombre, u.apellido, u.email, r.rol, u.estado " +
-                           "FROM [dbo].[usuario] u INNER JOIN [dbo].[rol] r ON u.idRol = r.idRol " +
-                           "ORDER BY u.idUsuario ASC";
+            string query = "SELECT u.idUsuario, u.documento, u.nombre, u.apellido, u.email, c.celular,cl.clave,e.estado, r.idRol, u.estado " +
+                            "FROM [dbo].[usuario] u INNER JOIN [dbo].[rol] r ON u.idRol = r.idRol " +
+                            "ORDER BY u.idUsuario ASC";
 
             SqlCommand command = null;
             SqlDataReader reader = null;
@@ -37,13 +37,16 @@ namespace AppAcmafer.Datos
                         Nombre = reader["nombre"].ToString(),
                         Apellido = reader["apellido"].ToString(),
                         Email = reader["email"].ToString(),
-                        Rol = reader["rol"].ToString(),
+                        // ... (Campos adicionales que necesites)
+                        IdRol = Convert.ToInt32(reader["rol"]),
+                        // Nota: Asegúrate de que los alias 'rol', 'estado' en la consulta sean correctos.
                         Estado = reader["estado"].ToString()
                     });
                 }
             }
             catch (Exception ex)
             {
+                // Manejo de errores
                 Console.WriteLine("Error en Capa de Datos: " + ex.Message);
                 listaUsuarios = new List<ClUsuarioM>();
             }
@@ -54,5 +57,8 @@ namespace AppAcmafer.Datos
             }
             return listaUsuarios;
         }
+
+        // Aquí irían los métodos: GuardarUsuario(), EditarUsuario(), EliminarUsuario(), etc.
     }
+
 }

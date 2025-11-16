@@ -9,19 +9,16 @@ using System.Web.UI;
 
 namespace AppAcmafer.Vista
 {
-    public class ClUsuarioL
+    public class ClUsuarioV
     {
         private ClUsuarioD oUsuarioD = new ClUsuarioD();
 
-        // 📌 CORRECCIÓN: El método debe devolver una LISTA 📌
+        
         public List<ClUsuarioM> ListarUsuarios()
         {
-            // Lógica de Negocio: Puedes poner validaciones aquí si las necesitas
+            List<ClUsuarioM> usuarios = oUsuarioD.ListarUsuarios();
 
-            // Llama a la Capa de Datos y devuelve la lista completa
-            List<ClUsuarioM> usuarios = oUsuarioD.ListarUsuariosDB();
-
-            return usuarios ?? new List<ClUsuarioM>(); // Aseguramos que nunca sea null
+            return usuarios ?? new List<ClUsuarioM>(); 
         }
     }
 }

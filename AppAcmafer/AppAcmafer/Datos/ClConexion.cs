@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -22,9 +24,39 @@ namespace AppAcmafer.Datos
             return oConex;
         }
 
+        public DataTable ObtenerTabla(string consultaSQL)
+        {
+            DataTable dtResultados = new DataTable();
+
+            try
+            {
+                MtAbrirConexion();
+                SqlCommand cmd = new SqlCommand(consultaSQL, oConex);
+                SqlDataAdapter adaptador = new SqlDataAdapter(cmd);
+                adaptador.Fill(dtResultados);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("ERROR DE CONEXIÓN O CONSULTA: " + ex.Message, ex);
+            }
+            finally
+            {
+                MtCerrarConexion();
+            }
+
+            return dtResultados;
+        }
         public void MtCerrarConexion()
         {
-            oConex.Close();
+            if (oConex.State == ConnectionState.Open)
+            {
+                oConex.Close();
+            }
         }
     }
 }
+    
+
+
+    
+

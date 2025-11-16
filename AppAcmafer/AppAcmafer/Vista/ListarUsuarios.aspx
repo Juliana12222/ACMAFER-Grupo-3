@@ -1,26 +1,28 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListarUsuarios.aspx.cs" Inherits="AppAcmafer.Vista.ListarUsuarios" %>
 
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
     <title>Listado de Usuarios</title>
-    </head>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            
-            <h2>Listado de Usuarios Registrados</h2>
+        <div class="container mt-5">
+            <h2 class="mb-4 border-bottom pb-2">Listado de Usuarios Registrados</h2>
             <hr />
 
+            <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
+            
             <asp:Repeater ID="rptUsuarios" runat="server">
                 
                 <HeaderTemplate>
-                    <table class="table table-striped table-hover">
+                    <table class="table table-striped table-hover table-bordered shadow-sm">
                         <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Documento</th>
                                 <th>Nombre Completo</th>
                                 <th>Correo</th>
@@ -30,23 +32,30 @@
                         </thead>
                         <tbody>
                 </HeaderTemplate>
-                
+
                 <ItemTemplate>
                     <tr>
-                        <td><%# Eval("IdUsuario") %></td>
-                        <td><%# Eval("Documento") %></td>
-                        <td><%# Eval("Nombre") %> <%# Eval("Apellido") %></td>
-                        <td><%# Eval("Email") %></td>
+                        <td><strong><%# Eval("Documento") %></strong></td>
+                        <td><%# Eval("NombreCompleto") %></td>
+                        <td><%# Eval("Correo") %></td>
                         <td><%# Eval("Rol") %></td>
-                        <td><%# Eval("Estado") %></td>
+                        
+                        <td>
+                            <asp:Label 
+                                runat="server" 
+                                Text='<%# Convert.ToInt32(DataBinder.Eval(Container.DataItem, "Estado")) == 1 ? "Activo" : "Inactivo" %>' 
+                                CssClass="badge text-dark border border-secondary"
+                            ></asp:Label>
+                        </td>
+                        
                     </tr>
                 </ItemTemplate>
 
                 <FooterTemplate>
-                    </tbody>
+                        </tbody>
                     </table>
                 </FooterTemplate>
-
+                
             </asp:Repeater>
             
         </div>
