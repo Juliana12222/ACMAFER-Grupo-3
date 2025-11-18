@@ -17,60 +17,84 @@ namespace AppAcmafer.Vista
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Conexion = new ClConexion();
+            // Creamos la conexión localmente, como buena práctica
+            // (La clase ClConexion ya fue corregida para manejar esto)
+            // Conexion = new ClConexion(); // <--- Ya no es necesario
 
             if (!IsPostBack)
             {
                 CargarCategorias();
-                CargarProductos(0); 
+                CargarProductos(0); // 0 = Mostrar Todos
             }
         }
 
         public void CargarCategorias()
         {
-            string consulta = "SELECT idCategoria, nombre FROM categoria ORDER BY nombre";
+            ClConexion miConexion = new ClConexion(); // Instancia local
+            string consulta = "SELECT idCategoria, Nombre FROM dbo.categoria ORDER BY Nombre";
 
             try
             {
-                DataTable tablaCategorias = Conexion.ObtenerTabla(consulta);
+                DataTable tablaCategorias = miConexion.ObtenerTabla(consulta);
 
                 ddlCategoria.DataSource = tablaCategorias;
                 ddlCategoria.DataValueField = "idCategoria";
-                ddlCategoria.DataTextField = "nombre";
+                ddlCategoria.DataTextField = "Nombre"; // Asegúrate que el campo se llama 'Nombre'
                 ddlCategoria.DataBind();
             }
             catch (Exception ex)
             {
-                lblMensaje.Text = "Error al cargar las categorías. Revisa tu ClConexion: " + ex.Message;
+                lblMensaje.Text = "Error al cargar las categorías: " + ex.Message;
                 return;
             }
 
+            // Insertar la opción "Mostrar Todos"
             ddlCategoria.Items.Insert(0, new ListItem("--- Mostrar Todos ---", "0"));
         }
 
-        public void CargarProductos (int idCategoriaSeleccionada)
+        public void CargarProductos(int idCategoriaSeleccionada)
         {
-            string consultaSQL =
-                "SELECT T1.idProducto, T1.nombre, T1.precioUnitario, T1.stockActual, T2.nombre AS CategoriaNombre " +
-                "FROM producto T1 INNER JOIN categoria T2 ON T1.idCategoria = T2.idCategoria";
+            ClConexion miConexion = new ClConexion(); // Instancia local
+
+            // --- SENTENCIA SQL CORREGIDA ---
+            // 1. Usamos alias 'p' para producto y 'c' para categoría.
+            // 2. Usamos c.Nombre para obtener el nombre de la categoría (asumiendo que es 'Nombre').
+            // 3. Quitamos las referencias a T1 que no existen.
+
+            string consultaSQL = $@"
+            SELECT 
+                p.idProducto, 
+                p.Nombre AS nombre, 
+                c.Nombre AS CategoriaNombre, 
+                p.PrecioUnitario AS precioUnitario, 
+                p.StockActual AS stockActual 
+            FROM dbo.producto p
+            INNER JOIN dbo.categoria c ON p.idCategoria = c.idCategoria
+            "; // No se usa WHERE ni ORDER BY aún.
 
             if (idCategoriaSeleccionada > 0)
             {
-                consultaSQL += " WHERE T1.idCategoria = " + idCategoriaSeleccionada;
+                // Si hay filtro, se añade el WHERE con el alias 'p' (producto)
+                consultaSQL += $" WHERE p.idCategoria = {idCategoriaSeleccionada}";
             }
 
-            consultaSQL += " ORDER BY T1.nombre";
+            // Se añade el ORDER BY al final, usando el alias 'p' (producto)
+            consultaSQL += " ORDER BY p.Nombre";
 
             try
             {
-                DataTable tablaProductos = Conexion.ObtenerTabla(consultaSQL);
+                DataTable tablaProductos = miConexion.ObtenerTabla(consultaSQL);
 
                 rptProductos.DataSource = tablaProductos;
                 rptProductos.DataBind();
 
-                if (tablaProductos.Rows.Count == 0)
+                if (tablaProductos.Rows.Count == 0 && idCategoriaSeleccionada > 0)
                 {
-                    lblMensaje.Text = "No se encontraron productos en esta lista.";
+                    lblMensaje.Text = "No se encontraron productos en la categoría seleccionada.";
+                }
+                else if (tablaProductos.Rows.Count == 0 && idCategoriaSeleccionada == 0)
+                {
+                    lblMensaje.Text = "No se encontraron productos en la base de datos.";
                 }
                 else
                 {
@@ -79,6 +103,7 @@ namespace AppAcmafer.Vista
             }
             catch (Exception ex)
             {
+                // Esto te ayudará a ver errores de conexión o nombres de columna si aún existen
                 lblMensaje.Text = "Error al cargar productos: " + ex.Message;
             }
         }
@@ -89,6 +114,4 @@ namespace AppAcmafer.Vista
             CargarProductos(idSeleccionado);
         }
     }
-
 }
-

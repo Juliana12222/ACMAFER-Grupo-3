@@ -43,14 +43,59 @@ namespace AppAcmafer.Datos
             {
                 MtCerrarConexion();
             }
+            using (SqlConnection oConex = MtAbrirConexion()) // Usamos tu método existente MtAbrirConexion()
+            {
+                using (SqlCommand oComando = new SqlCommand(consultaSQL, oConex))
+                {
+                    using (SqlDataAdapter oAdaptador = new SqlDataAdapter(oComando))
+                    {
+                        DataTable dt = new DataTable();
+                        oAdaptador.Fill(dt);
+                        // MtCerrarConexion(oConex); // Si MtAbrirConexion devuelve el objeto, lo cerramos aquí.
+                        return dt;
+                    }
+                }
+            }
+        }
+        public int EjecutarComando(string consultaSQL)
+        {
+            int filasAfectadas = 0;
 
-            return dtResultados;
+            // Usamos 'using' para asegurar que la conexión se cierre
+            using (SqlConnection oConex = MtAbrirConexion())
+            {
+                using (SqlCommand oComando = new SqlCommand(consultaSQL, oConex))
+                {
+                    try
+                    {
+                        filasAfectadas = oComando.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        // Aquí podrías loguear el error de SQL
+                        throw new Exception("Error al ejecutar el comando SQL: " + ex.Message, ex);
+                    }
+                    finally
+                    {
+                       
+                    }
+                }
+            }
+            return filasAfectadas;
         }
         public void MtCerrarConexion()
         {
-            if (oConex.State == ConnectionState.Open)
+            if (oConex != null && oConex.State == ConnectionState.Open)
             {
                 oConex.Close();
+            }
+        }
+
+        public void MtCerrarConexion(SqlConnection conexionACerrar)
+        {
+            if (conexionACerrar != null && conexionACerrar.State == ConnectionState.Open)
+            {
+                conexionACerrar.Close();
             }
         }
     }

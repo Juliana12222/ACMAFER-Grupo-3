@@ -16,9 +16,9 @@
             <hr />
 
             <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
-            
+
             <asp:Repeater ID="rptUsuarios" runat="server">
-                
+
                 <HeaderTemplate>
                     <table class="table table-striped table-hover table-bordered shadow-sm">
                         <thead>
@@ -39,25 +39,27 @@
                         <td><%# Eval("NombreCompleto") %></td>
                         <td><%# Eval("Correo") %></td>
                         <td><%# Eval("Rol") %></td>
-                        
+
                         <td>
-                            <asp:Label 
-                                runat="server" 
-                                Text='<%# Convert.ToInt32(DataBinder.Eval(Container.DataItem, "Estado")) == 1 ? "Activo" : "Inactivo" %>' 
-                                CssClass="badge text-dark border border-secondary"
-                            ></asp:Label>
+                            <asp:Label
+                                runat="server"
+                                Text='<%# Eval("Estado") %>'
+                                CssClass='<%# Eval("Estado").ToString() == "Activo" ? "badge bg-success" : "badge bg-danger" %>' />
                         </td>
-                        
+
+
+
                     </tr>
                 </ItemTemplate>
 
                 <FooterTemplate>
-                        </tbody>
+                    </tbody>
                     </table>
+               
                 </FooterTemplate>
-                
+
             </asp:Repeater>
-            
+
         </div>
     </form>
 </body>
