@@ -8,6 +8,7 @@ namespace AppAcmafer.Modelo
     public class ClCategoriaM
     {
         public int IdCategoria { get; set; }
-        public string Nombre { get; set; }
+        public string nombre { get; set; }
+        public string descripcion { get; set; }
     }
 }

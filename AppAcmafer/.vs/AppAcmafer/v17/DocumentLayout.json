@@ -1,18 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\",
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\appacmafer\\vista\\listadoproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\listadoproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\verificacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\verificacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|c:\\users\\yesid\\desktop\\appacmafer\\appacmafer\\appacmafer\\vista\\listadoproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\registrousuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\registrousuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\busquedaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\busquedaproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|c:\\users\\personal\\desktop\\git proyecto definitivo\\appacmafer\\appacmafer\\vista\\a\u00F1adirproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\a\u00F1adirproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\listadoproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\listadoproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|c:\\users\\yesid\\desktop\\appacmafer\\appacmafer\\appacmafer\\datos\\clconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\a\u00F1adirproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\a\u00F1adirproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clproductom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clproductom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\datos\\clusuariod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\datos\\clusuariod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\datos\\clproductod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\datos\\clproductod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\datos\\clconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\datos\\clconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\datos\\clproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\datos\\clproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\busquedaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\busquedaproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\registrousuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\registrousuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\logica\\clusuariol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\logica\\clusuariol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clcategoriam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clcategoriam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\verificacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\verificacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clusuariom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clusuariom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\logica\\clseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\logica\\clseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\logica\\clcorreoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\logica\\clcorreoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\cltarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\cltarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\modelo\\clrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\modelo\\clrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\listarusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\listarusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\listarusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\listarusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\listadoproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\listadoproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\appacmafer\\vista\\clusuariov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAD2D71-35BD-4A7B-A31C-5C5089F907E3}|AppAcmafer\\AppAcmafer.csproj|solutionrelative:appacmafer\\vista\\clusuariov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +126,383 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "A\u00F1adirProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\A\u00F1adirProducto.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\A\u00F1adirProducto.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\A\u00F1adirProducto.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\A\u00F1adirProducto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-20T05:29:07.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClProductoM.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClProductoM.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClProductoM.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClProductoM.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClProductoM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:00:38.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ListadoProductos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
               "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
-              "ToolTip": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
               "RelativeToolTip": "AppAcmafer\\Vista\\ListadoProductos.aspx.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwHQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T14:39:39.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListadoProductos.aspx",
-              "DocumentMoniker": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx",
-              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ListadoProductos.aspx",
-              "ToolTip": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx",
-              "RelativeToolTip": "AppAcmafer\\Vista\\ListadoProductos.aspx",
+              "DocumentIndex": 3,
+              "Title": "BusquedaProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\BusquedaProducto.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\BusquedaProducto.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\BusquedaProducto.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\BusquedaProducto.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-17T20:48:53.062Z",
+              "WhenOpened": "2025-11-20T05:46:11.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Login.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\Login.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Login.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-20T01:38:36.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistroUsuario.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\RegistroUsuario.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\RegistroUsuario.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\RegistroUsuario.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\RegistroUsuario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-20T02:15:10.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Verificacion.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Verificacion.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\Verificacion.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Verificacion.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\Verificacion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-20T03:08:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ClConexion.cs",
-              "DocumentMoniker": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Datos\\ClConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClConexion.cs",
               "RelativeDocumentMoniker": "AppAcmafer\\Datos\\ClConexion.cs",
-              "ToolTip": "C:\\Users\\Yesid\\Desktop\\AppAcmafer\\AppAcmafer\\AppAcmafer\\Datos\\ClConexion.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClConexion.cs",
               "RelativeToolTip": "AppAcmafer\\Datos\\ClConexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T23:35:06.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClUsuarioD.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClUsuarioD.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Datos\\ClUsuarioD.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClUsuarioD.cs",
+              "RelativeToolTip": "AppAcmafer\\Datos\\ClUsuarioD.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:33:12.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "A\u00F1adirProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\A\u00F1adirProducto.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\A\u00F1adirProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\A\u00F1adirProducto.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\A\u00F1adirProducto.aspx.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAawCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:31:45.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClProductoD.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClProductoD.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Datos\\ClProductoD.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClProductoD.cs",
+              "RelativeToolTip": "AppAcmafer\\Datos\\ClProductoD.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:32:58.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClProducto.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Datos\\ClProducto.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Datos\\ClProducto.cs",
+              "RelativeToolTip": "AppAcmafer\\Datos\\ClProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:30:05.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BusquedaProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\BusquedaProducto.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\BusquedaProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\BusquedaProducto.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\BusquedaProducto.aspx.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:46:57.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Login.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:01:24.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistroUsuario.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\RegistroUsuario.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\RegistroUsuario.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\RegistroUsuario.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\RegistroUsuario.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:03:14.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClPedido.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClPedido.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClPedido.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:51:37.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClUsuarioL.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClUsuarioL.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Logica\\ClUsuarioL.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClUsuarioL.cs",
+              "RelativeToolTip": "AppAcmafer\\Logica\\ClUsuarioL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:33:30.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Verificacion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Verificacion.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\Verificacion.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\Verificacion.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\Verificacion.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:09:09.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClCategoriaM.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClCategoriaM.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClCategoriaM.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClCategoriaM.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClCategoriaM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:00:40.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClSeguridad.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClSeguridad.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Logica\\ClSeguridad.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClSeguridad.cs",
+              "RelativeToolTip": "AppAcmafer\\Logica\\ClSeguridad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:44:38.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClUsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClUsuarioRol.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClUsuarioRol.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClUsuarioRol.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClUsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:32:18.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClCorreoVerificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClCorreoVerificacion.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Logica\\ClCorreoVerificacion.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Logica\\ClCorreoVerificacion.cs",
+              "RelativeToolTip": "AppAcmafer\\Logica\\ClCorreoVerificacion.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:46:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClUsuarioM.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClUsuarioM.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClUsuarioM.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClUsuarioM.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClUsuarioM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:59:52.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClTarea.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClTarea.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClTarea.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClTarea.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClTarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:51:59.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClRol.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClRol.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Modelo\\ClRol.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Modelo\\ClRol.cs",
+              "RelativeToolTip": "AppAcmafer\\Modelo\\ClRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:28:51.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListarUsuarios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListarUsuarios.aspx.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ListarUsuarios.aspx.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListarUsuarios.aspx.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\ListarUsuarios.aspx.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:38:04.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ListarUsuarios.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListarUsuarios.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ListarUsuarios.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListarUsuarios.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\ListarUsuarios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-20T01:37:51.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClUsuarioV.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ClUsuarioV.cs",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ClUsuarioV.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ClUsuarioV.cs",
+              "RelativeToolTip": "AppAcmafer\\Vista\\ClUsuarioV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:36:20.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListadoProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx",
+              "RelativeDocumentMoniker": "AppAcmafer\\Vista\\ListadoProductos.aspx",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Git Proyecto Definitivo\\AppAcmafer\\AppAcmafer\\Vista\\ListadoProductos.aspx",
+              "RelativeToolTip": "AppAcmafer\\Vista\\ListadoProductos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-17T20:48:53.062Z",
               "EditorCaption": ""
             }
           ]
