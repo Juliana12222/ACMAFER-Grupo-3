@@ -11,14 +11,14 @@ namespace AppAcmafer.Datos
     {
          ClConexion oConexion = new ClConexion();
 
-       
+
         public List<ClCategoriaM> ListarCategoriasDB()
         {
             List<ClCategoriaM> lista = new List<ClCategoriaM>();
             string query = "SELECT idCategoria, nombre FROM categoria WHERE estado = 'Activo'";
 
             try
-            {
+            { 
                 using (SqlConnection oConex = oConexion.MtAbrirConexion())
                 {
                     SqlCommand command = new SqlCommand(query, oConex);

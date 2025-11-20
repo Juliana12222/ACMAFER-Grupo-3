@@ -27,7 +27,7 @@ namespace AppAcmafer.Vista
         public void CargarUsuarios()
         {
             string consultaSQL = @"
-        SELECT 
+            SELECT 
             u.documento AS Documento, 
             u.nombre + ' ' + u.apellido AS NombreCompleto, 
             u.email AS Correo, 
@@ -36,14 +36,15 @@ namespace AppAcmafer.Vista
                 WHEN u.estado = 'Activo' THEN 1 
                 ELSE 0 
             END AS Estado  -- << ESTA COLUMNA ES UN INT
-        FROM [dbo].[usuario] u 
-        INNER JOIN [dbo].[rol] r ON u.idRol = r.idRol
-        ORDER BY u.nombre ASC";
+            FROM [dbo].[usuario] u 
+            INNER JOIN [dbo].[rol] r ON u.idRol = r.idRol
+            ORDER BY u.nombre ASC";
+
             try
             {
                 DataTable tablaUsuarios = Conexion.ObtenerTabla(consultaSQL);
 
-                rptUsuarios.DataSource = tablaUsuarios; 
+                rptUsuarios.DataSource = tablaUsuarios;
                 rptUsuarios.DataBind();
 
                 if (tablaUsuarios.Rows.Count == 0)
@@ -64,4 +65,4 @@ namespace AppAcmafer.Vista
         }
     }
 }
-       
+

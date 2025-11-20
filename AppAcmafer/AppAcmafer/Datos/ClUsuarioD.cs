@@ -37,16 +37,13 @@ namespace AppAcmafer.Datos
                         Nombre = reader["nombre"].ToString(),
                         Apellido = reader["apellido"].ToString(),
                         Email = reader["email"].ToString(),
-                        // ... (Campos adicionales que necesites)
                         IdRol = Convert.ToInt32(reader["rol"]),
-                        // Nota: Asegúrate de que los alias 'rol', 'estado' en la consulta sean correctos.
                         Estado = reader["estado"].ToString()
                     });
                 }
             }
             catch (Exception ex)
             {
-                // Manejo de errores
                 Console.WriteLine("Error en Capa de Datos: " + ex.Message);
                 listaUsuarios = new List<ClUsuarioM>();
             }
@@ -58,7 +55,6 @@ namespace AppAcmafer.Datos
             return listaUsuarios;
         }
 
-        // Aquí irían los métodos: GuardarUsuario(), EditarUsuario(), EliminarUsuario(), etc.
     }
 
 }
