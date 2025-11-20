@@ -9,27 +9,15 @@ namespace AppAcmafer.Logica
 {
     public class ClUsuarioL
     {
-         ClUsuarioD ClUsuarioD = new ClUsuarioD();
+        ClUsuarioD oUsuarioD = new ClUsuarioD();
 
-        public List<ClUsuarioM> ListarUsuariosRegistrados(string rolSolicitante)
+        public List<ClUsuarioM> ListarUsuarios()
         {
-            if (rolSolicitante != "Administrador")
-            {
-                Console.WriteLine("Acceso denegado. Se requiere rol de Administrador.");
-                return null;
-            }
+            List<ClUsuarioM> usuarios = oUsuarioD.ListarUsuarios();
 
-            var usuariosDB = ClUsuarioD.UsuariosRegistrados();
-
-            var listaFinal = usuariosDB.Select(u => new ClUsuarioM
-            {
-                Nombre = u.Nombre,
-                Email = u.Email,
-                Rol = u.Rol,
-                EstadoCuenta = u.EstadoCuenta
-            }).ToList();
-
-            return listaFinal;
+            return usuarios ?? new List<ClUsuarioM>();
         }
     }
 }
+        
+    
